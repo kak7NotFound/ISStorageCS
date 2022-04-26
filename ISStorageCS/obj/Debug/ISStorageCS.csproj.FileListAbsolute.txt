@@ -62,3 +62,15 @@ C:\Users\kaks\RiderProjects\ISStorageCS\ISStorageCS\bin\Debug\System.Threading.T
 C:\Users\kaks\RiderProjects\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.CopyComplete
 C:\Users\kaks\RiderProjects\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.exe
 C:\Users\kaks\RiderProjects\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.pdb
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.AssemblyReference.cache
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.Form1.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.GoodsAcceptanceForm.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.GoodsEditorForm.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.GoodsShipmentForm.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.Properties.Resources.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.WorkingSpace.resources
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.GenerateResource.cache
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.CoreCompileInputs.cache
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.exe
+C:\Users\kaks\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.pdb
