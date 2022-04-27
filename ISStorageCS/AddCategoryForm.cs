@@ -12,7 +12,8 @@ namespace ISStorageCS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Program.database.ExecuteNonQuery($"create table {textBox1.Text} (item text, weight int, count int, owner text)");
+            Program.database.ExecuteNonQuery($"create table {textBox1.Text} (item text, weight int, count int, owner text);");
+            Program.database.ExecuteNonQuery($"insert into Categories VALUES ('{textBox1.Text}')");
             Close();
         }
     }
