@@ -7,7 +7,10 @@ namespace ISStorageCS
     {
         public Form1()
         {
+            Console.Write(DataBase.strExeFilePath.Substring(0,
+                DataBase.strExeFilePath.Length - 15) + @"storage.sqlite");
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

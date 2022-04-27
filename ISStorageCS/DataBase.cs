@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,10 +9,10 @@ namespace ISStorageCS
     {
         public static string strExeFilePath = Assembly.GetExecutingAssembly().Location;
 
-        // private SqliteConnection connection = new SqliteConnection(@"Data Source=" +
-        //                                                            strExeFilePath.Substring(0,
-        //                                                                strExeFilePath.Length - 11) + @"\storage.sqlite");
-        private SqliteConnection connection = new SqliteConnection(@"Data Source=C:\Users\kak7\Documents\GitHub\ISStorageCS\storage.sqlite");
+        private SqliteConnection connection = new SqliteConnection(@"Data Source=" +
+        strExeFilePath.Substring(0,
+        strExeFilePath.Length - 15) + @"storage.sqlite");
+        // private SqliteConnection connection = new SqliteConnection(@"Data Source=C:\Users\kak7\Documents\GitHub\ISStorageCS\storage.sqlite");
 
         public DataBase()
         {

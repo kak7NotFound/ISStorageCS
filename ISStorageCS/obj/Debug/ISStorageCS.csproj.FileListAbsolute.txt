@@ -202,3 +202,4 @@ C:\Users\kak7\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csp
 C:\Users\kak7\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.csproj.CopyComplete
 C:\Users\kak7\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.exe
 C:\Users\kak7\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.pdb
+C:\Users\kak7\Documents\GitHub\ISStorageCS\ISStorageCS\obj\Debug\ISStorageCS.AddGoodsForm.resources

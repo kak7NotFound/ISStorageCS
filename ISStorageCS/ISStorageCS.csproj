@@ -140,6 +140,12 @@
     <Compile Include="AddCategoryForm.Designer.cs">
       <DependentUpon>AddCategoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddGoodsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGoodsForm.Designer.cs">
+      <DependentUpon>AddGoodsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataBase.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -175,6 +181,9 @@
     </Compile>
     <EmbeddedResource Include="AddCategoryForm.resx">
       <DependentUpon>AddCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGoodsForm.resx">
+      <DependentUpon>AddGoodsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

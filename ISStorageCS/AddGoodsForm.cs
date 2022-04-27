@@ -3,14 +3,15 @@ using System.Windows.Forms;
 
 namespace ISStorageCS
 {
-    public partial class GoodsAcceptanceForm : Form
+    public partial class AddGoodsForm : Form
     {
-        public GoodsAcceptanceForm()
+        private GoodsEditorForm gef;
+        public AddGoodsForm(GoodsEditorForm gef_)
         {
             InitializeComponent();
+            gef = gef_;
             refreshData();
         }
-
         public void refreshData()
         {
             comboBox1.Items.Clear();
@@ -25,16 +26,11 @@ namespace ISStorageCS
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Program.database.ExecuteNonQuery($"insert into '{comboBox1.Text}' values ('{textBox1.Text}', '{numericUpDown1.Value}', '{numericUpDown2.Value}', '{comboBox2.Text + comboBox3.Text}', '{textBox3.Text}')");
+            gef.refreshData();
+            gef.comboBox1_SelectedIndexChanged(null, null);
             Close();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Program.database.ExecuteNonQuery($"insert into '{comboBox1.Text}' values ('{textBox1.Text}', '{numericUpDown1.Value}', '{numericUpDown2.Value}', '{comboBox2.Text + comboBox3.Text}', '{textBox2.Text}')");
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
+        
     }
 }
