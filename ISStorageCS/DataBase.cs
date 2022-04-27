@@ -11,7 +11,7 @@ namespace ISStorageCS
         // private SqliteConnection connection = new SqliteConnection(@"Data Source=" +
         //                                                            strExeFilePath.Substring(0,
         //                                                                strExeFilePath.Length - 11) + @"\storage.sqlite");
-        private SqliteConnection connection = new SqliteConnection(@"Data Source=C:\Users\kaks\RiderProjects\ISStorageCS\storage.sqlite");
+        private SqliteConnection connection = new SqliteConnection(@"Data Source=C:\Users\kak7\Documents\GitHub\ISStorageCS\storage.sqlite");
 
         public DataBase()
         {
